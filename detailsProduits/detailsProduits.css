@@ -1,0 +1,325 @@
+body{
+    background-color: var(--gris-body);
+}
+.detailsProduitsContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+.col1{
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+.singleProduit{
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+}
+.imageProduit{
+    margin-right: 15px;
+    position: relative;
+    display: inline-block;
+}
+.imageProduit .search-icon {
+    position: relative;
+    left: 27vh;
+    bottom: 2vh;
+}
+.imageProduit .search-icon i{
+    background-color: #fff;
+    opacity: 0.6S;
+    padding: 1vh;
+    color: var(--gris-icon);
+}
+.infosDetailsProduits .Titelike{
+    display: flex;
+    justify-content: space-between;
+}
+.infosDetailsProduits .Titelike i { 
+    color: var(--saumon);
+}
+.infosDetailsProduits .droite{
+    color: var(--saumon);
+    font-weight: bold;
+}
+.infosDetailsProduits .carre{
+    display: inline-block;
+    padding: 1vh;
+    margin-right: 1vh;
+    /* background-color: yellowgreen; */
+}
+.infosDetailsProduits .clr1{
+    background-color: salmon;
+}
+.infosDetailsProduits .clr2{
+    background-color: burlywood;
+}
+.infosDetailsProduits .clr3{
+    background-color: darkgoldenrod;
+}
+.infosDetailsProduits .clr4{
+    background-color: red;
+}
+.infosDetailsProduits .clr5{
+    background-color: blue;
+}
+.infosDetailsProduits .taille{
+    margin-right: 1vh;
+}
+.reseau {
+    display: flex;
+    padding: 2Vh;
+}
+.reseau  span {
+    padding: 0 0.9vh;
+    color: var(--gris-icon);
+    text-align: center;
+}
+.reseau  .bordure{
+    border-right: thin solid var(--gris-icon);
+}
+.ajout{
+    width: 25%;
+    background-color: var(--gris-body);
+    margin-right: 20px;
+}
+.icone{
+    width: 35%;
+    background-color: var(--gris-body);
+}
+.commentaireProduit{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.descProduit {
+    width: 40vh;
+    background-color: var(--gris-body);
+}
+.comProduit{
+background-color: #fff;
+}
+.commentaireProduit .descProduit .message{
+    width: 80%;
+    background-color: #fff;
+    text-align: center;
+    padding: 1vh;
+}
+.commentaireProduit .descProduit .bg{
+    background-color: var(--maron);
+}
+.comProduit .comments h3 hr{
+    width: 3Ovh;
+
+}
+.commenter{
+    display: flex;
+}
+.commenter .internaute{
+    margin-right: 15px;
+}
+#comment2{
+    padding-left: 25px;
+}
+.infosP{
+    display: inline-block;
+    justify-content: space-between;
+}
+.infosP .space{
+    margin-right: 24vh;
+}
+.infosP span i {
+    background-color: var(--gris-body);
+    float: right;
+    padding: 1vh;
+}
+.nbrlike .star{
+    margin-right: 8px;
+    padding: 0.5vh;
+    color: var(--saumon);
+}
+.nbrlike .border{
+    border-right: thin solid var(--gris-body)!important;
+}
+.formulaire{
+    width: 80%;
+    margin: 0 auto!important;
+}
+.formulaire .champText{
+    display: flex;
+}
+.formulaire .champText input{
+    width: 40vh;
+    height: 6vh;
+    background-color: var(--gris-body);
+    border: none;
+    padding: 1vh;
+}
+.formulaire .champText .nom{
+    margin-right: 15px;
+}
+.formulaire .champMessage{
+    width: 82.5vh;
+    height: 15vh;
+    margin: 10px 0;
+}
+.formulaire .champMessage textarea{
+    width: 100%;
+    height: 100%;
+    background-color: var(--gris-body);
+    border: none;
+    padding: 1vh;
+}
+.formulaire .submit button{
+    background-color: var(--saumon);
+    color: #fff;
+    border: none;
+    padding: 1vh;
+    margin-bottom: 16px;
+}
+.col2{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+}
+.col2 .categorieProduits{
+    background-color: #fff;
+    width: 40vh;
+    height: 50vh;
+}
+.col2 .categorieProduits ul li:hover{
+    cursor: pointer;
+    color: var(--maron);
+}
+.col2 .categorieProduits .indent{
+    color: var(--gris-title);
+    text-indent: 1.5em;
+}
+.col2  h3{
+    text-align: center;
+    border-bottom: thin solid var(--gris-body);
+}
+.col2 .recentProduits{
+    background-color: #fff;
+    width: 40vh;
+    height: 80vh;
+}
+.col2 .recentProduits .post{
+    display: flex;
+    padding: 0 1vh;
+    margin-right: 4vh;
+    padding-bottom: 3vh;
+}
+.col2 .recentProduits .imagePost img{
+    width: 15vh;
+    height: 15vh;
+}
+.col2 .imageTags{
+    background-color: #fff;
+    width: 40vh;
+    height: 50vh;
+    padding: 2vh;
+}
+.col2 .imageTags img{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 1200px) {    
+    .detailsProduitsContainer{
+       display: flex;
+       flex-direction: column;
+    }
+    .col1{
+       display: flex;
+       flex-direction: column;
+    }
+    .singleProduit{
+        display: flex;
+        flex-direction: column;
+    }
+    .singleProduit .imageProduit img{
+        width: 25vh;
+        text-align: center;
+    }
+    .imageProduit .search-icon {
+        display: none;
+    }
+    .singleProduit .infosDetailsProduits{
+        text-align: center;
+    }
+    .infosDetailsProduits .Titelike{
+        display: flex;
+        flex-direction: row;
+        font-size: 7px;
+    }
+    .reseau {
+        display: none;
+    }
+    .descProduit {
+        margin: 0 auto;
+        width: 20vh;
+    }
+    .commentaireProduit{
+        display: flex;
+        flex-direction: column;
+    }
+    .commentaireProduit .comProduit .commenter{
+        display: flex;
+        flex-direction: column;
+    }
+    .commentaireProduit .comProduit .commenter .message{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .infosP .space{
+        display: none;
+    }
+    .commenter{
+        margin-left: 25px;
+    }
+    .nbrlike .star{
+        font-size: 10px;
+       margin: 0 auto;
+        color: var(--saumon);
+    }
+    .formulaire{
+        display: flex;
+        flex-direction: column;
+    }
+    .formulaire .champText{
+        display: flex;
+        flex-direction: column;
+    }
+    .formulaire .champText input{
+        width: 25vh;
+        height: 6vh;
+        background-color: var(--gris-body);
+        border: none;
+        padding: 1vh;
+    }
+    .formulaire .champText .nom{
+        margin-bottom: 15px;
+    }
+    .formulaire .champMessage{
+        width: 25.5vh;
+        height: 15vh;
+        margin: 10px 0;
+    }
+    .col2{
+        margin: 0 auto;
+    }
+    .col2 .categorieProduits{
+        width: 29vh;
+    }
+    .col2 .recentProduits{
+        width: 29vh;
+    }
+    .col2 .imageTags{
+        width: 29vh;
+    }
+}

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/shoelace.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../header-footer/innerHtml.css">
+    <link rel="stylesheet" href="detailsProduits.css">
+    <title>Details Produits</title>
+</head>
+<body>
+    <div id="progress">
+        <span id="progressValue">&#x1F815</span>
+      </div>
+    <header>
+        <div class="headerTop navBar">
+            <div class="menu">
+               <button class="menuTogler">
+                    <i class="bi bi-list"></i>
+               </button>
+               <div class="dropDownMenu" id="dropdownMenu">
+                <ul>
+                  <li><a class="active" href="#">Home</a></li>
+                  <li><a href="#">Products</a></li>
+                  <li><a href="#">Categories</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+               
+            </div>
+            <div class="logo"><a href=""><img src="https://htmldemo.net/hurst-v1/hurst/img/logo/logo.png" alt=""></a></div>
+            <div class="cart">
+                <i class='bx bxs-cart-alt'></i>
+            </div>
+        </div>
+        <div class="headerBottom">
+            <div class="headerBottomContain">
+                <h1>SINGLE PRODUCT</h1>
+            </div>
+            <div class="chemin">
+                <div>HOME / SINGLE PRODUCT</div>
+            </div>
+
+        </div>
+
+    </header>
+    <main>
+        <div class="detailsProduitsContainer">
+            <div class="col1"> 
+                <div class="singleProduit">
+                    <div class="imageProduit">
+                        <img src="./single-product/large/1.jpg" alt="">
+                        <div class="search-icon"><i class="bi bi-search search-icon"></i></div>
+                    </div>
+                    <div class="infosDetailsProduits">
+                        <p class="Titelike">
+                            <span>DUMMY PRODUCT NAME</span>
+                            <span class="star">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                                <i class="bi bi-star-half"></i>
+                                ( 27 Rating)
+                            </span>
+                        </p>
+                        <span class="droite">$ 56.20</span>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.</p>
+                        <p>
+                            <span>Color</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="carre clr1"></span>
+                            <span class="carre clr2"></span>
+                            <span class="carre clr3"></span>
+                            <span class="carre clr4"></span>
+                            <span class="carre clr5"></span>
+                        </p>
+                        <p>
+                            <span>Size</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="taille">M</span>
+                            <span class="taille">S</span>
+                            <span class="taille">L</span>
+                            <span class="taille">SL</span>
+                            <span class="taille">XL</span>
+                        </p>
+                        <div class="reseau">
+                            <div class="ajout">
+                                <span class="bordure"><i class="bi bi-dash"></i></span>
+                                <span class="bordure">1</span>
+                                <span><i class="bi bi-plus"></i></span>
+                            </div>
+                            <div class="icone">
+                                <span class="bordure"><i class="bi bi-heart"></i></span>
+                                <span class="bordure"><i class="bi bi-search"></i></span>
+                                <span class="bordure"><i class="bi bi-arrow-clockwise"></i></span>
+                                <span><i class="bi bi-cart3"></i></span>
+                            </div>
+                        </div>
+                        <div class="imageProduitsSlide">
+                            <sl-carousel navigation pagination slides-per-page="2" slides-per-move="2">
+                                <sl-carousel-item ><img src="./single-product/small/1.jpg" alt=""></sl-carousel-item>
+                                <sl-carousel-item ><img src="./single-product/small/2.jpg" alt=""></sl-carousel-item>
+                                <sl-carousel-item ><img src="./single-product/small/3.jpg" alt=""></sl-carousel-item>
+                                <sl-carousel-item ><img src="./single-product/small/4.jpg" alt=""></sl-carousel-item>
+                                <sl-carousel-item><img src="./single-product/small/5.jpg" alt=""></sl-carousel-item>
+                                <sl-carousel-item><img src="./single-product/small/1.jpg" alt=""></sl-carousel-item>
+                            </sl-carousel>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="commentaireProduit">
+                    <div class="descProduit">
+                        <p class="message">Description</p>
+                        <p class="message bg">Reviews</p>
+                        <p class="message">Information</p>
+                        <p class="message">Tags</p>
+                    </div>
+                    <div class="comProduit">
+                        <div class="comments">
+                            <h3 style="font-size: 16px; margin: 2vh;">CUSTOMER REVIEW </h3>
+                            <hr style="width: 10%; color:#434343; margin-left: 1%">
+                        </div>
+                        <div class="commenter">
+                            <div class="internaute">
+                                <img src="https://htmldemo.net/hurst-v1/hurst/img/reviewer/1.jpg" alt="">&nbsp;&nbsp;
+                            </div>
+                            <div class="message">
+                                <p class="infosP">
+                                    <span>GERALD BARNES</span>
+                                    <span class="space"><i class="bi bi-reply"></i></span>
+                                    <span class="space"><i class="bi bi-x-lg"></i></span><br>
+                                    <span>27 Jun, 2021 at 2:30pm</span>
+                                </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.</p>
+                            </div>
+                        </div>
+                        <div id="comment2" class="commenter">
+                            <div class="internaute">
+                                <img src="https://htmldemo.net/hurst-v1/hurst/img/reviewer/1.jpg" alt="">&nbsp;&nbsp;
+                            </div>
+                            <div class="message">
+                                <p class="infosP">
+                                    <span>GERALD BARNES</span>
+                                    <span class="space"><i class="bi bi-reply"></i></span>
+                                    <span class="space"><i class="bi bi-x-lg"></i></span><br>
+                                    <span>27 Jun, 2021 at 2:30pm</span>
+                                </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.</p>
+                            </div>
+                        </div>
+                        <div class="infosLike">
+                            <h3 style="font-size: 16px; margin: 2vh;">LEAVE YOUR REVIW </h3>
+                            <hr style="width: 10%; color:#434343; margin-left: 1%">
+                            <p>Your Rating</p>
+                            <p class="nbrlike">
+                                <span class="star " style="border-right: thin solid;">
+                                    <i class="bi bi-star"></i>
+                                </span>
+                                <span class="star" style="border-right: thin solid;">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </span>
+                                <span class="star " style="border-right: thin solid;">
+                                    <i class="bi bi-star"></i> 
+                                    <i class="bi bi-star"></i> 
+                                    <i class="bi bi-star"></i> 
+                                </span>
+                                <span class="star"style="border-right: thin solid;">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </span>
+                                <span class="star">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="formulaire">
+                            <form style="margin-right: 17vh;">
+                                <div class="champText">
+                                    <div class="nom">
+                                        <input type="text" placeholder="Your name her...">
+                                    </div>
+                                    <div class="sujet">
+                                        <input type="text" placeholder="Subject...">
+                                    </div>
+                                </div>
+                                <div class="champMessage">
+                                    <textarea  placeholder="Your review  her..."></textarea>
+                                </div>
+                                <div class="submit">
+                                    <button type="submit">SUBMIT REVIEW</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col2">
+                <div class="categorieProduits">
+                    <h3 style="font-size: 16px; margin: 2vh;">CATEGORIES</h3>
+                    <ul>
+                        <li>Chair</li>
+                        <li>Furniture
+                        <li class="indent">Men Bag</li>
+                        <li class="indent">Shoes</li>
+                        <li class="indent">Watch</li>
+                        <li class="indent">T-Shirt</li>
+                        <li class="indent">Shirt</li>
+                        <li>Accessories</li>
+                        <li>Top Brands</li>
+                        <li>Jewelry</li>
+                    </ul>
+                </div>
+                <div class="recentProduits">
+                    <h3 style="font-size: 16px; margin: 2vh;">RECENT PRODUCTS</h3>
+                    <div class="post">
+                        <div class="imagePost">
+                            <img src="./single-product/small/1.jpg" alt="">
+                        </div>
+                        <div class="detailsPost">
+                            <h5 style="font-size: 12px; margin: 2vh;">PRODUCT NAME</h5>
+                            <h6 style="margin-left: 2vh;">$ 56.20</h6>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="imagePost">
+                            <img src="https://htmldemo.net/hurst-v1/hurst/img/product/1.jpg" alt="">
+                        </div>
+                        <div class="detailsPost">
+                            <h5 style="font-size: 12px; margin: 2vh;">PRODUCT NAME</h5>
+                            <h6 style="margin-left: 2vh;">$ 56.20</h6>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="imagePost">
+                            <img src="https://htmldemo.net/hurst-v1/hurst/img/product/6.jpg" alt="">
+                        </div>
+                        <div class="detailsPost">
+                            <h5 style="font-size: 12px; margin: 2vh;">PRODUCT NAME</h5>
+                            <h6 style="margin-left: 2vh;">$ 56.20</h6>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="imagePost">
+                            <img src="https://htmldemo.net/hurst-v1/hurst/img/product/3.jpg" alt="">
+                        </div>
+                        <div class="detailsPost">
+                            <h5 style="font-size: 12px; margin: 2vh;">PRODUCT NAME</h5>
+                            <h6 style="margin-left: 2vh;">$ 56.20</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="imageTags">
+                    <img src="https://htmldemo.net/hurst-v1/hurst/img/banner/5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerTop">
+            <div class="footerTopItems">
+
+                <div class="footerTopItem1">
+                    <h1 class="footerTopItem1Title">CONTACT US <span></span></h1>
+                    <div class="footerTopItem1Info">
+                        <div class="footerTopItem1Infoitem">
+                            <h3>Address :</h3>
+                            <p>Yoff, Dakar, Sénégal</p>
+                        </div>
+                        <div class="footerTopItem1Infoitem">
+                            <h3>Cell-Phone :</h3>
+                            <p>+221 77 777 77 77</p>
+                        </div>
+                        <div class="footerTopItem1Infoitem">
+                            <h3>Email :</h3>
+                            <p>test@groupe5.com</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="footerTopItem2">
+                    <h1 class="footerTopItem2Title">ACCOUNTS <span></span></h1>
+                    <div class="footerTopItem2Info">
+                        <ul>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>My Account</a></li>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>My Wishlist</a></li>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>My cart</a></li>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>Sign In</a></li>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>Check Out</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="footerTopItem2">
+                    <h1 class="footerTopItem2Title">SHIPPING <span></span></h1>
+                    <div class="footerTopItem2Info">
+                        <ul>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>New Products</a></li>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>Top Sellers</a></li>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>Manufacturiers</a></li>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>Suppliers</a></li>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>Specials</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+
+                <div class="footerTopItem1">
+                    <h1 class="footerTopItem1Title">EMAILS NEWSLATTER <span></span></h1>
+                    <div class="footerTopItem1Info">
+                        <div class="footerTopItem1Infoitem">
+                            <input type="email" name="" id="" placeholder="Emails Address...">
+                        </div>
+                        <div class="footerTopItem1Infoitem">
+                            <button>SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="copyright">
+                <span>© CodeCarnival 2022. All Rights Reserved.</span>
+            </div>
+            <div class="icons-gab">
+                <span><img src="./image/payment/1.png" alt=""></span>
+                <span><img src="./image/payment/2.png" alt=""></span>
+                <span><img src="./image/payment/3.png" alt=""></span>
+                <span><img src="./image/payment/4.png" alt=""></span>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+        <script>
+
+           //navBar fixed
+           let navBarFixed = () => {
+                let navBar = document.querySelector(".navBar");
+                console.log(navBar);
+        
+                let pos = document.documentElement.scrollTop;
+                console.log(pos)
+        
+                if (pos > 10) {
+                  navBar.classList.add("fixed");
+                  console.log("fixed");
+                } else {
+                  navBar.classList.remove("fixed");
+                  console.log("not-fixed");
+                }
+              };
+        
+              // window.onscroll = navBarFixed;
+              // window.onload = navBarFixed;
+        
+              // scroll
+              let calcScrollValue = () =>{
+                let scrollProgress = document.getElementById('progress');
+                let scrolProgressValue = document.getElementById('progressValue');
+        
+                let pos = document.documentElement.scrollTop;
+                let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                let scrollValue = Math.round((pos * 100)/calcHeight)
+                if(pos>10){
+                  scrollProgress.style.display = 'grid';
+                }else{
+                  scrollProgress.style.display = 'none';
+                }
+        
+                scrollProgress.addEventListener('click', () => {
+                  document.documentElement.scrollTop = 0;
+                })
+        
+                scrollProgress.style.background = `conic-gradient( var(--maron) ${scrollValue}%, white ${scrollValue}%)`;
+              }
+        
+              // Ajouter un seul gestionnaire d'événements
+              window.addEventListener('scroll', () => {
+                navBarFixed();
+                calcScrollValue();
+              });
+        
+              // Exécutez les fonctions une fois au chargement de la page
+              window.addEventListener('load', () => {
+                navBarFixed();
+                calcScrollValue();
+              });
+
+              //menu
+              let menuTogler = document.querySelector('.menuTogler');
+              let menuToglerIcon = document.querySelector('.menuTogler i');
+              let dropDownMenu = document.querySelector('.dropDownMenu');
+        
+              menuTogler.onclick = function(){
+                dropDownMenu.classList.toggle('open');
+                let isOpen = dropDownMenu.classList.contains('open');
+        
+                menuToglerIcon.classList = isOpen ? 'bi bi-x ' : 'bi bi-list ';
+              }
+
+              // JavaScript pour activer ou désactiver le défilement des images au clic
+                        const imageContainer = document.querySelector('.imageProduitsSlide');
+
+                imageContainer.addEventListener('click', () => {
+                    imageContainer.classList.toggle('active');
+                });
+          </script>
+</body>
+</html>
