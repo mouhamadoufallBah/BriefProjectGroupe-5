@@ -167,7 +167,7 @@ header .headerTop .cart::after{
 header .headerBottom{
     height: 80%;
     width: 100%;
-    background-image: url('../image/1.jpg');
+    background-image: url('./image/1.jpg');
     background-size: cover;
     background-position: center;
     
