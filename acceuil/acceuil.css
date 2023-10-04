@@ -63,6 +63,7 @@ header .headerTop{
 .fixed{
     position: fixed;
     top: 0;
+    z-index: 3;
     background-color: white;
     box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.18);
     -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.18);
@@ -834,6 +835,7 @@ footer .footerTop .footerTopItems .footerTopItem1 .footerTopItem1Title{
     height: 10%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 15px !important;
     /* justify-content: center; */
 }
 
@@ -919,6 +921,7 @@ footer .footerTop .footerTopItems .footerTopItem2 .footerTopItem2Title{
     height: 10%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 15px !important;
     /* justify-content: center; */
 }
 
@@ -1118,7 +1121,7 @@ footer .footerBottom{
 
 
     footer{
-        height: 180vh;
+        height: 100vh;
     }
 
     footer .footerTop{
