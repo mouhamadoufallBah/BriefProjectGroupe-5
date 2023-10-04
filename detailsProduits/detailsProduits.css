@@ -180,6 +180,9 @@ background-color: #fff;
     padding: 1vh;
     margin-bottom: 16px;
 }
+.formulaire .submit button:hover{
+    background-color: var(--maron);
+}
 .col2{
     display: grid;
     grid-template-rows: auto auto auto;
