@@ -6,8 +6,47 @@
     <title>PageAbout</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="pageAbout.css">
+
 </head>
 <body>
+    <div id="progress">
+        <span id="progressValue">&#x1F815</span>
+    </div>
+    <header>
+        <div class="headerTop navBar">
+            <div class="menu">
+            <button class="menuTogler">
+                    <i class="bi bi-list"></i>
+            </button>
+            <div class="dropDownMenu" id="dropdownMenu">
+                <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            
+            </div>
+            <div class="logo"><a href=""><img src="https://htmldemo.net/hurst-v1/hurst/img/logo/logo.png" alt=""></a></div>
+            <div class="cart">
+                <i class='bx bxs-cart-alt'></i>
+            </div>
+        </div>
+        <div class="headerBottom">
+            <div class="headerBottomContain">
+                <h1>BLOG</h1>
+            </div>
+            <div class="chemin">
+                <div>HOME / BLOG</div>
+            </div>
+
+        </div>
+
+    </header>
+    <!-- section About -->
     <section class="sectionAbout">
         <div class="divImgBgtxt">
             <div class="divimg">
@@ -22,89 +61,166 @@
             </div>
         </div>
     </section>
-
-    <!-- <section class="ourTeam">
-        <h2 class="T2"> Team</h2>
-        <hr>
-    
-        <p class="pTeam">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus magnam cum possimus,
-            voluptatibus id accusantium moles
-        </p>
-
-        <div class="conteneurTeam">
-            <div class="team">
-                    <div class="imgTeam">
-                        <img src="./imgBg/1.jpg" alt="">
-                    </div>
-    
-                    <div class="textTeam">
-                        <h3>Walter White</h3>
-                        <p>Web Development</p>
-                    </div>
-    
-                    <div class="linkTeam">
-                        <span class="iconTeam"><i class="bi bi-twitter"></i></span>
-                        <span class="iconTeam"><i class="bi bi-facebook"></i></span>
-                        <span class="iconTeam"><i class="bi bi-instagram"></i></span>
-                        <span class="iconTeamm"><i class="bi bi-linkedin"></i></span>
-                    </div>
-            </div>
-
-            <div class="team">
-                <div class="imgTeam">
-                    <img src="./imgBg/1.jpg" alt="">
-                </div>
-            
-                <div class="textTeam">
-                    <h3>Sarah Jhinson</h3>
-                    <p>Marketing</p>
-                </div>
-            
-                <div class="linkTeam">
-                    <span class="iconTeam"><i class="bi bi-twitter"></i></span>
-                    <span class="iconTeam"><i class="bi bi-facebook"></i></span>
-                    <span class="iconTeam"><i class="bi bi-instagram"></i></span>
-                    <span class="iconTeamm"><i class="bi bi-linkedin"></i></span>
-                </div>
-            </div>
-
-            <div class="team">
-                <div class="imgTeam">
-                    <img src="./imgBg/1.jpg" alt="">
-                </div>
-            
-                <div class="textTeam">
-                    <h3>William Anderson</h3>
-                    <p>Content</p>
-                </div>
-            
-                <div class="linkTeam">
-                    <span class="iconTeam"><i class="bi bi-twitter"></i></span>
-                    <span class="iconTeam"><i class="bi bi-facebook"></i></span>
-                    <span class="iconTeam"><i class="bi bi-instagram"></i></span>
-                    <span class="iconTeamm"><i class="bi bi-linkedin"></i></span>
-                </div>
-            </div>
-
-            <div class="team">
-                <div class="imgTeam">
-                    <img src="./imgBg/1.jpg" alt="">
-                </div>
-            
-                <div class="textTeam">
-                    <h3>Amanda Jepson</h3>
-                    <p>Accountent</p>
-                </div>
-            
-                <div class="linkTeam">
-                    <span class="iconTeam"><i class="bi bi-twitter"></i></span>
-                    <span class="iconTeam"><i class="bi bi-facebook"></i></span>
-                    <span class="iconTeam"><i class="bi bi-instagram"></i></span>
-                    <span class="iconTeamm"><i class="bi bi-linkedin"></i></span>
-                </div>
+    <!-- Section Team -->
+    <!-- <section class="secteam">
+        <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
     </section> -->
+
+    <!-- le footer -->
+    <footer>
+        <div class="footerTop">
+            <div class="footerTopItems">
+
+                <div class="footerTopItem1">
+                    <h1 class="footerTopItem1Title">CONTACT US <span></span></h1>
+                    <div class="footerTopItem1Info">
+                        <div class="footerTopItem1Infoitem">
+                            <h3>Address :</h3>
+                            <p>Yoff, Dakar, Sénégal</p>
+                        </div>
+                        <div class="footerTopItem1Infoitem">
+                            <h3>Cell-Phone :</h3>
+                            <p>+221 77 777 77 77</p>
+                        </div>
+                        <div class="footerTopItem1Infoitem">
+                            <h3>Email :</h3>
+                            <p>test@groupe5.com</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="footerTopItem2">
+                    <h1 class="footerTopItem2Title">ACCOUNTS <span></span></h1>
+                    <div class="footerTopItem2Info">
+                        <ul>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>My Account</a></li>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>My Wishlist</a></li>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>My cart</a></li>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>Sign In</a></li>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>Check Out</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="footerTopItem2">
+                    <h1 class="footerTopItem2Title">SHIPPING <span></span></h1>
+                    <div class="footerTopItem2Info">
+                        <ul>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>New Products</a></li>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>Top Sellers</a></li>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>Manufacturiers</a></li>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>Suppliers</a></li>
+                            <li><a href=""><i class='bx bx-radio-circle-marked'></i>Specials</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+
+                <div class="footerTopItem1">
+                    <h1 class="footerTopItem1Title">EMAILS NEWSLATTER <span></span></h1>
+                    <div class="footerTopItem1Info">
+                        <div class="footerTopItem1Infoitem">
+                            <input type="email" name="" id="" placeholder="Emails Address...">
+                        </div>
+                        <div class="footerTopItem1Infoitem">
+                            <button>SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="copyright">
+                <span>© CodeCarnival 2022. All Rights Reserved.</span>
+            </div>
+            <div class="icons-gab">
+                <span><img src="./image/payment/1.png" alt=""></span>
+                <span><img src="./image/payment/2.png" alt=""></span>
+                <span><img src="./image/payment/3.png" alt=""></span>
+                <span><img src="./image/payment/4.png" alt=""></span>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+        <script>
+           //navBar fixed
+            let navBarFixed = () => {
+                let navBar = document.querySelector(".navBar");
+                console.log(navBar);
+        
+                let pos = document.documentElement.scrollTop;
+                console.log(pos)
+        
+                if (pos > 10) {
+                    navBar.classList.add("fixed");
+                    console.log("fixed");
+                } else {
+                    navBar.classList.remove("fixed");
+                    console.log("not-fixed");
+                }
+                };
+        
+              // window.onscroll = navBarFixed;
+              // window.onload = navBarFixed;
+        
+              // scroll
+                let calcScrollValue = () =>{
+                let scrollProgress = document.getElementById('progress');
+                let scrolProgressValue = document.getElementById('progressValue');
+        
+                let pos = document.documentElement.scrollTop;
+                let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                let scrollValue = Math.round((pos * 100)/calcHeight)
+                if(pos>10){
+                scrollProgress.style.display = 'grid';
+                }else{
+                scrollProgress.style.display = 'none';
+                }
+        
+                scrollProgress.addEventListener('click', () => {
+                document.documentElement.scrollTop = 0;
+                })
+        
+                scrollProgress.style.background = `conic-gradient( var(--maron) ${scrollValue}%, white ${scrollValue}%)`;
+                }
+        
+              // Ajouter un seul gestionnaire d'événements
+                window.addEventListener('scroll', () => {
+                navBarFixed();
+                calcScrollValue();
+            });
+        
+              // Exécutez les fonctions une fois au chargement de la page
+                window.addEventListener('load', () => {
+                navBarFixed();
+                calcScrollValue();
+                });
+
+              //menu
+                let menuTogler = document.querySelector('.menuTogler');
+                let menuToglerIcon = document.querySelector('.menuTogler i');
+                let dropDownMenu = document.querySelector('.dropDownMenu');
+        
+            menuTogler.onclick = function(){
+                dropDownMenu.classList.toggle('open');
+                let isOpen = dropDownMenu.classList.contains('open');
+        
+                menuToglerIcon.classList = isOpen ? 'bi bi-x ' : 'bi bi-list ';
+            }
+        </script>
 </body>
 </html>
