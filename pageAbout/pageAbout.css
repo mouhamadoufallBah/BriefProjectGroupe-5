@@ -114,42 +114,32 @@
 
 
 /* section team */
-conteneur-grid-flex{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 35px;
-    row-gap: 35px;
-    flex-wrap: wrap;
-}
-.divContOurTeam{
+.secteam{
+    width: 80%;
+    height: 80vh;
+    border: 2px solid red;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
     display: flex;
-    /* grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 35px;
-    row-gap: 35px; */
-}
-    
-#imgteam{
-    width: 250px;
-}
-.hrteam{
-    border-color:#008374 ;
-    width: 45px;
 }
 
-.divWalter{
-    background-color:#C8C8C8;
-    border-radius: 10%;
+.card-img-top{
+    width: 60%;
+    height: 16vh;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0,0, .2);
 }
-.divSara{
-    background-color:#C8C8C8;
-    border-radius: 10%;
+.card-body{
+    width: 60%;
+    height: 60;
 }
-.divAnder{
-    background-color:#C8C8C8;
-    border-radius: 10%;
-}
-.divAmanda{
-    background-color:#C8C8C8;
-    border-radius: 10%;
+.cart{
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0,0, .2);
 }
 
 /* la responsivité */
