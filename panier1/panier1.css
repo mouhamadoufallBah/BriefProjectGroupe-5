@@ -1,0 +1,169 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --maron: #C8A165;
+    --saumon: #C87065;
+    --gris-footer: #eee;
+    --gris-body: #f6f6f6;
+    --gris-icon: #666666;
+    --gris-title: #434343;
+}
+.containerpanier1{
+    border:1px solid red;
+    width:80%;
+    margin :0 auto;
+    background-color: var(--gris-body);
+
+
+
+}
+.containerpanier1 .buttonPanier{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3%;
+    margin-bottom: 2em;
+
+}
+.containerpanier1 .buttonPanier button{ 
+    color: var(--gris-title);
+    background-color: white;
+    height: 3em;
+    width: 100%;
+    border: 0;
+
+}
+.containerpanier1 .buttonPanier button:nth-child(1){ 
+    color: white;
+    background-color: var(--maron);
+
+}
+.containerpanier1 .containerTab {
+    border:1px solid green;
+    /* background-color: w; */
+
+    width:100%;
+    margin :0 auto;
+    padding:0;
+    height:2;
+
+}
+/* *********************couponcoden******************************* */
+/* cou pon et paiment */
+
+.couponPayment{
+    background-color: rgb(142, 45, 45);
+    margin-top: 10%;
+
+}
+.couponPayment .couponDiscount .cardDiscount{
+    border: 1px solid #962424;
+    height:100%;
+    border-radius:2%;
+    background-color: white;
+    padding: 3% 3%;
+
+
+}
+.couponPayment .couponDiscount .cardDiscount .card-body input{
+
+    background-color: var(--gris-footer);
+    /* border:1px solid blue; */
+    margin-bottom:5%;
+    margin-top:5%;
+    border-radius: 0 u;
+
+
+}
+
+/* *********************couponcoden******************************* */
+/* *********************infoshippin******************************* */
+.infoShipping{
+    border: 1px solid #244096;
+    background-color: #ffffff;
+    padding: 3% 3%;
+   
+   height: 30%;
+}
+.infoShipping .inputShipping{
+    /* border: 1px solid #962424; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top:1%;
+    height: 25%;
+    gap:5%;
+}
+.infoShipping .inputShipping input{
+    margin: 0 auto;
+    width:100%;
+    border:0;
+    background-color: var(--gris-footer);
+
+    
+}
+.infoShipping .inputShipping input::placeholder{
+    padding:3%;
+}
+.infoShipping button{
+    background-color: var(--saumon);
+    border: 0;
+    margin-top: 3%;
+    width: 13%;
+    height: 20%;
+    color: white;
+
+}
+/* *********************infoshippin******************************* */
+@media (max-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+
+    }
+    }
+@media (max-width: 768px) {
+    
+    .infoShipping .inputShipping{
+        display: flex;
+        flex-direction: column;
+    }
+    .infoShipping .inputShipping input{
+        width: 100%;
+    }
+    }
+    @media(max-width:768px){
+        .containerpanier1 .buttonPanier{
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+        .containerpanier1 .buttonPanier button{ 
+            box-shadow: 2px 2px 4px var(--gris-icon);
+        }
+        #tabconnteneur table, thead,tbody,tr,td{
+            display: flex;
+            flex-direction: column;  
+        }
+        #tabconnteneur table thead{
+            display: none;
+            
+        }
+        #tabconnteneur table tbody tr th{
+            display: flex;
+            flex-direction:column-reverse ;
+            text-align: left;
+            color: var(--gris-icon);
+        }
+        
+        #tabconnteneur table tbody tr td{
+           display: none;
+        }
+        
+    
+    }
+    
