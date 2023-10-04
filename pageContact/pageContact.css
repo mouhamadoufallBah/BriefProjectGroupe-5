@@ -1,0 +1,104 @@
+:root{
+    --maron: #C8A165;
+    --saumon: #C87065;
+    --gris-footer: #eee;
+    --gris-body: #f6f6f6;
+    --gris-icon: #666666;
+    --gris-title: #434343;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    /* background-color: var(--gris-body); */
+}
+.contactContainer{
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+    background-color: #ffffff;
+    /* border: solid 1px black; */
+}
+
+.divForm{
+    box-sizing: border-box;
+    display: block;
+    width: 40%;
+    height: 85vh;
+    /* border: solid 1px black; */
+}
+
+.divMap{
+    width: 60%;
+    height: 85vh; 
+}
+
+.divCntDetail{
+    width: 100%;
+    /* height:
+    /* margin-bottom: 45px; */
+    
+}
+
+.divformBottom{
+    width: 100%;
+    height: 70%;
+}
+.divMap iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.contactAdrss{
+    display: flex;
+    width: 300px;
+}
+.phonNumber{
+    display: flex;
+    width: 300px;
+}
+.cntMail{
+    display: flex;
+    width: 300px;
+    padding-bottom: 30px;
+    
+}
+.btnContact{
+    width: 40px;
+    height: 40px;
+    border: none;
+    color: var(--gris-title);
+}
+
+#ligngris{
+    width: 70px;
+    height: 2px;
+    background-color: var(--gris-icon);
+}
+#contact-form{
+    width: 50%;
+}
+
+#contact-form input{
+    width: 300px;
+    height: 35px;
+    background-color: var(--gris-footer);
+    border: none;
+}
+#message{
+    width: 300px;
+    height: 80px;
+}
+.submit{
+    width: 150px;
+    height: 40px;
+    background-color: var(--saumon);
+    border: none;
+}
