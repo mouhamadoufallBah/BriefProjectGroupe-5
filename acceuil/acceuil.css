@@ -1013,7 +1013,6 @@ section.newsletter div button:hover{
 footer{
     height: 50vh;
     width: 100%;
-    /* border: 2px solid; */
     background-color: var(--gris-footer);
     z-index: 1;
 }
